@@ -4,9 +4,42 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>GitHub users</title>
   </head>
   <body>
+    <main>
+      <section class="container-user">
+        <div class="container-imgLogo">
+          <a href="/" class="link-img">
+            <img
+              class="github-logo"
+              src="./src/img/iconmonstr-github-1.svg"
+              alt="Image GitHub"
+            />
+          </a>
+        </div>
+        <div class="input-user">
+          <div class="enter-user">
+            <input
+              id="text-user"
+              class="text-user"
+              type="text"
+              placeholder="Enter your username"
+            />
+            <i class="icon-user" data-feather="user"></i>
+          </div>
+          <div class="container-btn">
+            <button class="btn-enter">Enter</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
