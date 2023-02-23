@@ -5,6 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
     .container-imgLogo {
       position: relative;
       height: 10rem;
@@ -23,13 +25,22 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 35%;
+      width: 40%;
       height: 250px;
       border-radius: 10px;
       background-color: rgb(130, 141, 153, 0.2);
       position: relative;
+
+      @media (max-width: 767px) {
+        width: 60%;
+      }
+
+      @media (max-width: 480px) {
+        width: 80%;
+      }
+
       .enter-user {
-        width: 70%;
+        width: 60%;
         position: absolute;
         top: 100px;
 
@@ -42,6 +53,9 @@ body {
           position: relative;
           color: $color-white;
           border-bottom: 2px solid $color-white;
+          &::placeholder {
+            color: $color-white;
+          }
         }
 
         .icon-user {
@@ -65,7 +79,7 @@ body {
           border: none;
           border-radius: 10px;
           cursor: pointer;
-
+          color: $color-white;
           &:hover {
             transition: all 0.3s ease-out;
             background-color: $color-green-100;
