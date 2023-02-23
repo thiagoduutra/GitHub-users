@@ -2,12 +2,13 @@
 
 ![preview](<./src/img/github-users.png>)
 
-## Tecnologias
+## 🔨 Tecnologias
 
 -   HTML
 -   SASS
 -   Git, Github, GitFlow
 -   JavaScript
+-   Slick
 
 ## 📞 Contato
 
