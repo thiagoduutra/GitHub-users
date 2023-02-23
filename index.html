@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
-    <title>GitHub users</title>
+    <title>GitHub Users</title>
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <main>
@@ -30,16 +33,29 @@
             <i class="icon-user" data-feather="user"></i>
           </div>
           <div class="container-btn">
-            <button class="btn-enter">Enter</button>
+            <button type="submit" class="btn-enter">Enter</button>
           </div>
         </div>
       </section>
+
+      <div class="container-api">
+        <div class="api-content"></div>
+        <div class="container-rep"></div>
+      </div>
     </main>
 
-    <script src="https://unpkg.com/feather-icons"></script>
     <script>
       feather.replace();
     </script>
-    <script type="module" src="/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script async type="module" src="/main.js"></script>
   </body>
 </html>

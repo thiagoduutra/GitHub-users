@@ -1,0 +1,37 @@
+.container-rep {
+  margin-top: 50px;
+
+  @media (min-width: 1400px) and (max-width: 1920px) {
+    margin-top: 150px;
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 50px;
+  }
+
+  .container-repository {
+    gap: 15px;
+    width: 80%;
+    border-radius: 3px;
+    border: 2px solid $color-green-100;
+    background-color: $color-black;
+    padding: 15px 0;
+  }
+
+  .btn-url {
+    text-decoration: none;
+    background-color: $color-green;
+    color: $color-white;
+    padding: 3px 20px;
+    border-radius: 5px;
+
+    &:hover {
+      transition: all 0.3s ease-out;
+      background-color: $color-green-100;
+    }
+  }
+}
