@@ -16,6 +16,6 @@
 
 ## Ver a página
 
-1º: Baixar o arquivo
-2º: Abrir o terminal -> npm i
-3º: npm run dev e abrir localmente
+-   Baixar o arquivo
+-   Abrir o terminal -> npm i
+-   npm run dev e abrir localmente
